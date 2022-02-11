@@ -1,0 +1,158 @@
+.main-carousel{
+    margin: 0;
+    padding: 0;
+}
+
+.cell{
+    width: 33%;
+    height: 350px;
+    margin: 0 15px;
+    overflow: hidden;
+    border-radius: 8px;
+}
+
+.cell img{
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+
+}
+
+.wrapper{
+    display: flex;
+    justify-content: space-between;
+}
+
+.offer{
+    margin-top: 140px;
+    width: 516px;
+}
+
+.title{
+    font-size: 36px;
+}
+
+.intro{
+    width: 415px;
+}
+
+.bg{
+    width: 600px;
+    height: 500px;
+    align-items: center;
+    padding-top: 40px;
+    padding-left: 10px;
+}
+
+.btn{
+    font-family: 'Montserrat', sans-serif;
+    background: #ff8986;
+    color: #000;
+    display: block;
+    width: 223px;
+    padding: 20px 0;
+    text-align: center;
+    margin-top:45px;
+    text-decoration: none;
+    border-radius: 30px;
+}
+
+.future{
+    padding-top: 20px;
+    padding-bottom: 80px;
+    background-size:100%;
+    background-color: #dae5ff;
+}
+
+.experiences{
+    display: flex;
+    justify-content: space-between;
+}
+
+.experience{
+    width: 307px;
+}
+
+.section-title{
+    font-size:30px;
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.exp-title{
+    font-size: 16px;
+    text-align: center;
+}
+
+.icons{
+    text-align: center;
+    margin-left: 120px;
+    margin-bottom: 19px;
+    width: 90px;
+    height: 70px;
+}
+
+.container{
+    width: 1170px;
+    margin: 0 auto;
+}
+
+.exp-text{
+    font-size: 16px;
+    text-align: center;
+}
+
+.input{
+    width: 342px;
+    font-size: 15px;
+    font-family: 'Open Sans', sans-serif;
+    height: 44px;
+    margin-top: 15px;
+    text-align: center;
+    margin-bottom: 10px;
+    border: 2px solid #000;
+}
+
+.btn-form{
+    cursor: pointer;
+    width: 150px;
+    border: 0;
+    margin-top: 15px;
+    margin:auto;
+    display:block;
+}
+
+.form{
+    margin-bottom: 28px;
+    display: block;
+    text-align: center;
+}
+
+.footer{
+    padding: 25px 0;
+    background: #164d7a;
+}
+.credits{
+    font-size:14px;
+    color:#eaedf0;
+    text-align: center;
+}
+.title-text{
+    text-align: center;
+}
+
+.custom{
+    background-size: 100%;
+    margin-bottom: 20px;
+    background-image: url("file:///Users/julia/Desktop/DziubaPortfolio/img/eng.jpeg");
+}
+
+.container{
+    width: 1170px;
+    margin: 0 auto;
+}
+
+.prem{
+    border: 1px solid black;
+    border-radius: 20px;
+}

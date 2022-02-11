@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <title>
+       Learning English website
+    </title>
+</head>
+<body>
+
+    <div class="main-carousel">
+        <div class="cell"><img src="img/london1.jpeg"></div>
+        <div class="cell"><img src="img/london2.jpeg"></div>
+        <div class="cell"><img src="img/london3.jpeg"></div>
+        <div class="cell"><img src="img/london4.png"></div>
+        
+    </div>
+
+    <div class="wrapper">
+        <img src="img/english.jpeg" class="bg" alt="trpic" class="travel">
+
+            <div class="offer">
+                <h1 class="title">
+                  Learn English in a fun way
+                </h1>
+                <p class="intro">
+                  Hello there! Expand your knowledge of English in a fun & informative way!<br><br>
+                  Our three study plans are designed to help you improve and master your english skills, with emphasis on speaking and new vocabulary.
+                  Please fill out the application below and we will get back to you in 24 hours. 
+                </p>
+                <a href="#" class="btn">Start</a>
+            </div>
+    </div>
+
+    <section id="future" class="future">
+            <div class="container">
+              <h2 class="section-title">Choose a study plan</h2>
+              <div class="experiences">
+                <div class="experience">
+                    <img src="img/bookicon.jpeg" alt="iconfirst" class="icons">
+                    <h3 class="exp-title">
+                        Standard plan
+                    </h3>
+                    <p class="exp-text">
+                        Lessons 2 times a week<br>
+                        30$/hour
+                    </p>
+                </div>
+                <div class="experience">
+                    <img src="img/premium.jpeg" alt="iconfirst" class="icons prem">
+                    <h3 class="exp-title">
+                        Premium plan
+                    </h3>
+                    <p class="exp-text">
+                        Lessons 3 times a week<br>
+                        40$/hour<br>
+                        Private in-depth consultations on homework
+                    </p>
+                </div>
+                <div class="experience">
+                    <img src="img/vip.jpeg" alt="iconfirst" class="icons prem">
+                    <h3 class="exp-title">
+                        VIP plan
+                    </h3>
+                    <p class="exp-text">
+                        Lessons 5 times a week<br>
+                        60$/hour<br>
+                        Private in-depth consultations on homework + test reviews<br>
+                        Practice with native speaker twice a week.
+                    </p>
+                </div>
+              </div>
+            </div>
+        </section>
+        <div class="custom">
+            <br><h2 class="section-title">Leave your application:</h2>
+            <form action="#" class="form">
+                <input type="text" name="name" class="input" placeholder="Name"><br>
+                <input type="email" name="email" class="input" placeholder="Email"><br>
+                <input type="phone" name="phonenumber" class="input" placeholder="Phone number"><br>
+                <input type="text" name="level" class="input" placeholder="Your English level">
+                <button type="submit" class="btn btn-form">Go!</button>
+            </form>
+        </div>
+        <footer id="footer" class="footer">
+                <div class="container">
+                    <p class="credits">
+                        © Copyright sentence here
+                    </p>
+                </div>
+        </footer>
+
+
+<script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+<script type="text/javascript">
+    $('.main-carousel').flickity({
+    // options
+    cellAlign: 'left',
+    wrapAround: true,
+    freeScroll: true
+    });
+</script>
+</body>
+</html>
